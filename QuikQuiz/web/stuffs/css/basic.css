@@ -1,0 +1,57 @@
+/*!
+ * @version  : 1.0
+ * @date     : Jan 9, 2018, 1:10:57 PM
+ * @licensed : Private
+ * @author   : SKR
+ */
+
+/*@import url('../vendor/bootstrap/css/bootstrap.min.css');
+@import url('../vendor/fa-4.0.7/src/fa-4.7.0.min.css');*/
+
+body {
+   background-image: url(../images/amazon-bg.jpg);
+   background-attachment: fixed;
+   background-size: cover, cover;
+   padding-top: 54px;
+   overflow-y: scroll;
+}
+@media (min-width: 992px) {
+   body {
+      padding-top: 54px;
+   }
+}
+
+.btn {cursor: pointer}
+.btn.disabled, .btn.disabled:hover, .btn.disabled:focus {
+   cursor: not-allowed;
+   background-image: url(../images/ajax-loader-4.gif);
+   background-position: 0 center;
+   background-size: calc(36px);
+   background-repeat: no-repeat;
+}
+
+.card-header.tog { cursor: pointer }
+
+textarea { min-height: 80px; max-height: 200px }
+
+.transparent-black-01 { background-color: rgba(0,0,0,0.1) !important }
+.transparent-black-02 { background-color: rgba(0,0,0,0.2) !important }
+.transparent-black-03 { background-color: rgba(0,0,0,0.3) !important }
+.transparent-black-04 { background-color: rgba(0,0,0,0.4) !important }
+.transparent-black-05 { background-color: rgba(0,0,0,0.5) !important }
+.transparent-black-06 { background-color: rgba(0,0,0,0.6) !important }
+.transparent-black-07 { background-color: rgba(0,0,0,0.7) !important }
+.transparent-black-08 { background-color: rgba(0,0,0,0.8) !important }
+.transparent-black-09 { background-color: rgba(0,0,0,0.9) !important }
+.transparent-black-10 { background-color: black !important }
+
+.transparent-white-01 { background-color: rgba(255,255,255,.1) !important }
+.transparent-white-02 { background-color: rgba(255,255,255,.2) !important }
+.transparent-white-03 { background-color: rgba(255,255,255,.3) !important }
+.transparent-white-04 { background-color: rgba(255,255,255,.4) !important }
+.transparent-white-05 { background-color: rgba(255,255,255,.5) !important }
+.transparent-white-06 { background-color: rgba(255,255,255,.6) !important }
+.transparent-white-07 { background-color: rgba(255,255,255,.7) !important }
+.transparent-white-08 { background-color: rgba(255,255,255,.8) !important }
+.transparent-white-09 { background-color: rgba(255,255,255,.9) !important }
+.transparent-white-10 { background-color: white !important }
