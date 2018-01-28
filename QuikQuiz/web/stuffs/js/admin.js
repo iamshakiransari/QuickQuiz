@@ -1,7 +1,7 @@
 /*!
  * @version  : 1.0
  * @date     : Jan 12, 2018, 3:20:42 PM
- * @licensed : Apache v2.0
+ * @licensed : Private
  * @author   : SKR
  */
 
